@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EB784151E3BC037008EAAE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB784141E3BC037008EAAE9 /* AppDelegate.m */; };
+		9EB784181E3BC037008EAAE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB784171E3BC037008EAAE9 /* main.m */; };
+		9EB7841A1E3BC037008EAAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB784191E3BC037008EAAE9 /* Assets.xcassets */; };
+		9EB7841D1E3BC037008EAAE9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7841B1E3BC037008EAAE9 /* MainMenu.xib */; };
+		9EB784261E3BC04D008EAAE9 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB784251E3BC04D008EAAE9 /* AppController.m */; };
+		9EB784281E3C0F42008EAAE9 /* stock-photo-zombie-eyes-with-the-reflection-headed-soldier-eyes-killer-deadly-eye-contact-animal-eye-with-320063798.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB784271E3C0F42008EAAE9 /* stock-photo-zombie-eyes-with-the-reflection-headed-soldier-eyes-killer-deadly-eye-contact-animal-eye-with-320063798.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9EB784101E3BC037008EAAE9 /* Music calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB784131E3BC037008EAAE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9EB784141E3BC037008EAAE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9EB784171E3BC037008EAAE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EB784191E3BC037008EAAE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EB7841C1E3BC037008EAAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9EB7841E1E3BC037008EAAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB784241E3BC04D008EAAE9 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		9EB784251E3BC04D008EAAE9 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		9EB784271E3C0F42008EAAE9 /* stock-photo-zombie-eyes-with-the-reflection-headed-soldier-eyes-killer-deadly-eye-contact-animal-eye-with-320063798.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stock-photo-zombie-eyes-with-the-reflection-headed-soldier-eyes-killer-deadly-eye-contact-animal-eye-with-320063798.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EB7840D1E3BC037008EAAE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EB784071E3BC037008EAAE9 = {
+			isa = PBXGroup;
+			children = (
+				9EB784121E3BC037008EAAE9 /* Music calculator */,
+				9EB784111E3BC037008EAAE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EB784111E3BC037008EAAE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EB784101E3BC037008EAAE9 /* Music calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EB784121E3BC037008EAAE9 /* Music calculator */ = {
+			isa = PBXGroup;
+			children = (
+				9EB784271E3C0F42008EAAE9 /* stock-photo-zombie-eyes-with-the-reflection-headed-soldier-eyes-killer-deadly-eye-contact-animal-eye-with-320063798.jpg */,
+				9EB784241E3BC04D008EAAE9 /* AppController.h */,
+				9EB784251E3BC04D008EAAE9 /* AppController.m */,
+				9EB784191E3BC037008EAAE9 /* Assets.xcassets */,
+				9EB7841B1E3BC037008EAAE9 /* MainMenu.xib */,
+				9EB7841E1E3BC037008EAAE9 /* Info.plist */,
+				9EB784161E3BC037008EAAE9 /* Supporting Files */,
+			);
+			path = "Music calculator";
+			sourceTree = "<group>";
+		};
+		9EB784161E3BC037008EAAE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EB784131E3BC037008EAAE9 /* AppDelegate.h */,
+				9EB784141E3BC037008EAAE9 /* AppDelegate.m */,
+				9EB784171E3BC037008EAAE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EB7840F1E3BC037008EAAE9 /* Music calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB784211E3BC037008EAAE9 /* Build configuration list for PBXNativeTarget "Music calculator" */;
+			buildPhases = (
+				9EB7840C1E3BC037008EAAE9 /* Sources */,
+				9EB7840D1E3BC037008EAAE9 /* Frameworks */,
+				9EB7840E1E3BC037008EAAE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Music calculator";
+			productName = "Music calculator";
+			productReference = 9EB784101E3BC037008EAAE9 /* Music calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EB784081E3BC037008EAAE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luke Zeitlin";
+				TargetAttributes = {
+					9EB7840F1E3BC037008EAAE9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L7R2H23CCX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9EB7840B1E3BC037008EAAE9 /* Build configuration list for PBXProject "Music calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EB784071E3BC037008EAAE9;
+			productRefGroup = 9EB784111E3BC037008EAAE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EB7840F1E3BC037008EAAE9 /* Music calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EB7840E1E3BC037008EAAE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB7841A1E3BC037008EAAE9 /* Assets.xcassets in Resources */,
+				9EB7841D1E3BC037008EAAE9 /* MainMenu.xib in Resources */,
+				9EB784281E3C0F42008EAAE9 /* stock-photo-zombie-eyes-with-the-reflection-headed-soldier-eyes-killer-deadly-eye-contact-animal-eye-with-320063798.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EB7840C1E3BC037008EAAE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB784181E3BC037008EAAE9 /* main.m in Sources */,
+				9EB784261E3BC04D008EAAE9 /* AppController.m in Sources */,
+				9EB784151E3BC037008EAAE9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EB7841B1E3BC037008EAAE9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB7841C1E3BC037008EAAE9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EB7841F1E3BC037008EAAE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9EB784201E3BC037008EAAE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9EB784221E3BC037008EAAE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = L7R2H23CCX;
+				INFOPLIST_FILE = "Music calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACA.Music-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EB784231E3BC037008EAAE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = L7R2H23CCX;
+				INFOPLIST_FILE = "Music calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACA.Music-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EB7840B1E3BC037008EAAE9 /* Build configuration list for PBXProject "Music calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB7841F1E3BC037008EAAE9 /* Debug */,
+				9EB784201E3BC037008EAAE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB784211E3BC037008EAAE9 /* Build configuration list for PBXNativeTarget "Music calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB784221E3BC037008EAAE9 /* Debug */,
+				9EB784231E3BC037008EAAE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EB784081E3BC037008EAAE9 /* Project object */;
+}
